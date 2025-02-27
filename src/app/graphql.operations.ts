@@ -1,6 +1,6 @@
 import { gql } from "apollo-angular";
 
-const GET_PROJECT_ID = gql`
+const GET_SERVER_INFO = gql`
     query GetServerInfo {
         serverInfo {
             name
@@ -8,4 +8,4 @@ const GET_PROJECT_ID = gql`
     }
 `
 
-export { GET_PROJECT_ID }
+export { GET_SERVER_INFO }
