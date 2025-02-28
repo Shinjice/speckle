@@ -1,0 +1,19 @@
+DOCUMENTATION FOR SPECKLE APP by Tam
+
+for GRAPHQL on Angular: ng add apollo-angular
+note: only works with angular app.module added, which is not standard in Angular V19
+terminalcommand: ng new --no-standalone
+
+How to create simple api on nodejs + instructions how to RUN
+https://www.csharp.com/article/how-to-create-a-web-api-in-angular-using-node-js-in-vs-code/#:~:text=js%20and%20VS%20Code&text=First%2C%20you%20need%20to%20create,like%20to%20create%20your%20API.&text=Then%20open%20this%20folder%20in%20VS%20code%20and%20open%20the%20terminal.
+
+to run server, open terminal on api folder
+-npm install (in terminal)
+-node indexjs (in terminal)
+
+NGROK is needed to tunnel api to outside localhost
+ngrok http --host-header=rewrite 5000 (in terminal) 
+this url + enroll must be added to webhooks on speckle project, enroll is open receiving endpoint
+
+Tailwind framework is used for styling
+
