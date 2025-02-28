@@ -15,5 +15,6 @@ NGROK is needed to tunnel api to outside localhost
 ngrok http --host-header=rewrite 5000 (in terminal) 
 this url + enroll must be added to webhooks on speckle project, enroll is open receiving endpoint
 
-Tailwind framework is used for styling
+Tailwind framework is used for styling, see tailwind doc angular
 
+npm install --save @speckle/viewer

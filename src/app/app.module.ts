@@ -5,10 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { GraphQLModule } from './graphql.module';
+import { SpeckleViewerComponent } from './speckle-viewer/speckle-viewer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SpeckleViewerComponent
   ],
   imports: [
     BrowserModule,

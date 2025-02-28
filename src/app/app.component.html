@@ -1,8 +1,10 @@
 
-<div>De error =  {{error}}</div>
+<div *ngIf="error">De error =  {{error}}</div>
 
 <pre>{{data | json}}</pre>
 
 <h1 class="underline">hello world!</h1>
+
+<app-speckle-viewer></app-speckle-viewer>
 
 <router-outlet />

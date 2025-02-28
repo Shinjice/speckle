@@ -19,6 +19,7 @@
     "@angular/platform-browser-dynamic": "^19.1.0",
     "@angular/router": "^19.1.0",
     "@apollo/client": "^3.0.0",
+    "@speckle/viewer": "^2.23.10",
     "@tailwindcss/postcss": "^4.0.9",
     "apollo-angular": "^10.0.3",
     "graphql": "^16",
