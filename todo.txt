@@ -1,2 +1,6 @@
-1. 
-2.
+signals ipv van rxjs
+geen statementmanagement, 
+https://angular.dev/guide/signals
+
+authenticatie viewer
+eigen projecten uitlezen op speckle (heeft ook met authenticatie te maken)
