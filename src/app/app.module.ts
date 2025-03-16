@@ -6,11 +6,12 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { GraphQLModule } from './graphql.module';
 import { SpeckleViewerComponent } from './speckle-viewer/speckle-viewer.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SpeckleViewerComponent
+    SpeckleViewerComponent,
   ],
   imports: [
     BrowserModule,
